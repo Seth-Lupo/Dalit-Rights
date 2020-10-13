@@ -1,0 +1,117 @@
+body, html {
+
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+img {
+
+	width: 40vh;
+	margin: 0vh auto 8vh auto;
+	display:block;
+
+
+}
+
+p {
+
+	margin: 0vh auto 8vh auto;
+	font-size: 2.5vh;
+
+}
+
+#titleDiv {
+
+	width: auto;
+	height: 15%;
+	min-height: 15%;
+	padding: 1.3vh;
+	box-shadow: 0px -19px grey;
+	position: relative;
+	background: #E1E1E1;
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+#titleImg {
+
+	margin: 2vh 2vh 2vh 2vh;
+	width: 10vh;
+
+}
+
+#title {
+
+	text-align: center;
+	font-size: 6vh; 
+}
+
+#subtitle {
+
+	text-align: center;
+	font-size: 3vh; 
+
+}
+
+#infoList {
+
+	display: flex;
+	flex-flow: column;
+	height: 85%;
+	max-height: 85%;
+	justify-content: space-evenly;
+	
+
+}
+.expandableInfo {
+
+	text-align: center;
+	box-shadow: 10px 10px 5px grey;
+	padding: 15px 15px 15px 15px;
+
+}
+
+.selected {
+
+	flex-grow: 50;
+	overflow: auto;
+	background: #FFFFFF;
+	transition: flex-grow 0.5s, background 0.5s;
+
+}
+
+.unselected {
+
+	flex-grow: 1;
+	text-align: center;
+	transition: flex-grow 0.5s, background 0.5s;
+	background: #F3F3F3;
+
+
+}
+
+.infoLabel {
+
+	font-size: 4vh;
+
+	
+
+
+}
+
+.infoDiv {
+
+	width: auto;
+	height: 100%;
+	max-height: 100%;
+	text-align: left;
+	
+	padding: 5vh 20vh 5vh 20vh;
+	border: none;
+	
+
+
+}
