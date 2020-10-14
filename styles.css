@@ -87,7 +87,7 @@ p {
 
 	flex-grow: 1;
 	text-align: center;
-	transition: flex-grow 0.5s, background 0.5s;
+	transition: flex-grow 0.2s, background 0.5s;
 	background: #F3F3F3;
 
 
